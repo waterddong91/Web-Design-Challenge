@@ -1,0 +1,52 @@
+/* Change of font type required */
+body {
+    background-color: #e6e6e6;
+}
+
+.container {
+    padding-top: 50px;
+}
+
+.box {
+    padding: 25px;
+    background-color: white;
+}
+
+h3 {
+    color:  #07b8be;
+}
+
+.navbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.navbar-brand {
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 0;
+    background-color:#07b8be;
+}
+
+@media only screen and (max-width: 576px) {
+
+    #navbarDropdownMenuLink {
+        background-color: #e6e6e6!important;
+        margin-top: 15px;
+    }
+
+    .dropdown-menu {
+        outline: none;
+        border: none;
+    }
+    
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight:600;
+    color: #07b8be;
+    text-align:center;
+}
